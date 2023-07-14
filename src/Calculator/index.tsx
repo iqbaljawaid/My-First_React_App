@@ -3,7 +3,7 @@ import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import IState from "./types";
 
-class Form extends React.Component<{}, IState> {
+class Calculator extends React.Component<{}, IState> {
   constructor(props: any) {
     super(props);
     this.state = {
@@ -141,4 +141,4 @@ class Form extends React.Component<{}, IState> {
   }
 }
 
-export default Form;
+export default Calculator;
